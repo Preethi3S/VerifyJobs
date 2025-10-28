@@ -1,0 +1,1 @@
+Load this folder as an unpacked extension in chrome://extensions (Developer mode).

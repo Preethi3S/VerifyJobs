@@ -1,0 +1,107 @@
+# -----------------------------------------------------
+# 🌐 FRONTEND (React + Vite)
+# -----------------------------------------------------
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.DS_Store
+
+# Vite / React cache
+frontend/.vite/
+frontend/.eslintcache
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# -----------------------------------------------------
+# ⚙️ BACKEND (Node.js + Express)
+# -----------------------------------------------------
+backend/node_modules/
+backend/.env
+backend/.DS_Store
+backend/logs/
+backend/npm-debug.log*
+backend/yarn-debug.log*
+backend/yarn-error.log*
+
+# Temporary uploads or cached files
+backend/uploads/
+backend/temp/
+backend/.cache/
+
+# -----------------------------------------------------
+# 🤖 AI MODEL (Python + Flask + TensorFlow/Scikit)
+# -----------------------------------------------------
+ai_model/__pycache__/
+ai_model/.env
+ai_model/.DS_Store
+ai_model/*.pyc
+ai_model/*.pyo
+ai_model/.pytest_cache/
+ai_model/venv/
+ai_model/env/
+ai_model/.ipynb_checkpoints/
+
+# Trained models / checkpoints (large files)
+ai_model/models/
+ai_model/checkpoints/
+ai_model/*.h5
+ai_model/*.pkl
+ai_model/*.pt
+ai_model/*.joblib
+
+# Dataset backups (if large)
+ai_model/data/raw/
+ai_model/data/temp/
+ai_model/data/cache/
+
+# Logs
+ai_model/logs/
+ai_model/runs/
+ai_model/*.log
+
+# -----------------------------------------------------
+# 🔧 SYSTEM & EDITOR FILES
+# -----------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# -----------------------------------------------------
+# 📦 GLOBAL ENVIRONMENTS
+# -----------------------------------------------------
+.env
+.env.local
+.env.production
+.env.development
+
+# -----------------------------------------------------
+# 🐳 DOCKER / BUILD ARTIFACTS (if added later)
+# -----------------------------------------------------
+*.pid
+docker-compose.override.yml
+*.tar
+build/
+cache/
+coverage/
+
+# -----------------------------------------------------
+# 🧪 TEST / NOTEBOOK FILES
+# -----------------------------------------------------
+*.ipynb
+notebooks/
+__pycache__/
+coverage/
+reports/
+test-output/
+
+
+# VS Code
+.vscode/
+.history/
+
